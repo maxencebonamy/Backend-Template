@@ -1,0 +1,21 @@
+{
+	"prettier.enable": false,
+	"css.lint.unknownAtRules": "ignore",
+	"editor.formatOnSave": false,
+	"tailwindCSS.experimental.classRegex": [
+		[
+			"cn\\(([^)]*)\\)",
+			"(?:'|\"|`)([^']*)(?:'|\"|`)"
+		]
+	],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.addMissingImports.ts": "explicit",
+		"source.removeUnusedImports": "explicit",
+		"source.sortImports": "explicit"
+	},
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/node_modules/**": true
+	}
+}

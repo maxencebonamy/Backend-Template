@@ -1,0 +1,12 @@
+# Packages
+node_modules
+pnpm-lock.yaml
+
+# Env
+.env
+
+# Prisma
+prisma/migrations
+
+# Build
+build
