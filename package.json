@@ -13,7 +13,7 @@
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {
 		"@fastify/one-line-logger": "^2.0.0",
 		"@fastify/swagger": "^9.2.0",

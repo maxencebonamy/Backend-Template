@@ -4,9 +4,14 @@ pnpm-lock.yaml
 
 # Env
 .env
-
-# Prisma
-prisma/migrations
+.env.*
+!.env.example
 
 # Build
 build
+
+# Logs
+*.log
+
+# OS
+.DS_Store
